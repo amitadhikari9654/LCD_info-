@@ -13,12 +13,13 @@ api_key = "fc65121aeb613cf280e2ffbbff74c2c1"
 base_url = "http://api.openweathermap.org/data/2.5/weather?"
   
 # Give city name 
-city_name = input("Little Rock")
-  
+
+#city_name = input("Little Rock")
+print("Little Rock")
 # complete_url variable to store 
 # complete url address 
-complete_url = base_url + "appid=" + api_key + "&q=" + city_name 
-  
+#complete_url = base_url + "appid=" + api_key + "&q=" + city_name 
+complete_url = "http://api.openweathermap.org/data/2.5/weather?id=4119403"
 # get method of requests module 
 # return response object 
 response = requests.get(complete_url) 
