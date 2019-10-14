@@ -33,4 +33,118 @@ Collecting idna<2.9,>=2.5 (from requests)
     100% |████████████████████████████████| 61kB 2.1MB/s 
 Installing collected packages: urllib3, certifi, chardet, idna, requests
 Successfully installed certifi-2019.9.11 chardet-3.0.4 idna-2.8 requests-2.22.0 urllib3-1.25.6
+calebs-MBP:LCD_info- caheidecker$ git add -A
+calebs-MBP:LCD_info- caheidecker$ git commit -m "Added Requests"
+[master d37e097] Added Requests
+ 97 files changed, 27118 insertions(+)
+ create mode 100644 installSteps
+ create mode 100644 resources/requests-2.7.0/HISTORY.rst
+ create mode 100644 resources/requests-2.7.0/LICENSE
+ create mode 100644 resources/requests-2.7.0/MANIFEST.in
+ create mode 100644 resources/requests-2.7.0/NOTICE
+ create mode 100644 resources/requests-2.7.0/PKG-INFO
+ create mode 100644 resources/requests-2.7.0/README.rst
+ create mode 100644 resources/requests-2.7.0/requests.egg-info/PKG-INFO
+ create mode 100644 resources/requests-2.7.0/requests.egg-info/SOURCES.txt
+ create mode 100644 resources/requests-2.7.0/requests.egg-info/dependency_links.txt
+ create mode 100644 resources/requests-2.7.0/requests.egg-info/not-zip-safe
+ create mode 100644 resources/requests-2.7.0/requests.egg-info/requires.txt
+ create mode 100644 resources/requests-2.7.0/requests.egg-info/top_level.txt
+ create mode 100644 resources/requests-2.7.0/requests/__init__.py
+ create mode 100644 resources/requests-2.7.0/requests/adapters.py
+ create mode 100644 resources/requests-2.7.0/requests/api.py
+ create mode 100644 resources/requests-2.7.0/requests/auth.py
+ create mode 100644 resources/requests-2.7.0/requests/cacert.pem
+ create mode 100644 resources/requests-2.7.0/requests/certs.py
+ create mode 100644 resources/requests-2.7.0/requests/compat.py
+ create mode 100644 resources/requests-2.7.0/requests/cookies.py
+ create mode 100644 resources/requests-2.7.0/requests/exceptions.py
+ create mode 100644 resources/requests-2.7.0/requests/hooks.py
+ create mode 100644 resources/requests-2.7.0/requests/models.py
+ create mode 100644 resources/requests-2.7.0/requests/packages/__init__.py
+ create mode 100644 resources/requests-2.7.0/requests/packages/chardet/__init__.py
+ create mode 100644 resources/requests-2.7.0/requests/packages/chardet/big5freq.py
+ create mode 100644 resources/requests-2.7.0/requests/packages/chardet/big5prober.py
+ create mode 100755 resources/requests-2.7.0/requests/packages/chardet/chardetect.py
+ create mode 100644 resources/requests-2.7.0/requests/packages/chardet/chardistribution.py
+ create mode 100644 resources/requests-2.7.0/requests/packages/chardet/charsetgroupprober.py
+ create mode 100644 resources/requests-2.7.0/requests/packages/chardet/charsetprober.py
+ create mode 100644 resources/requests-2.7.0/requests/packages/chardet/codingstatemachine.py
+ create mode 100644 resources/requests-2.7.0/requests/packages/chardet/compat.py
+ create mode 100644 resources/requests-2.7.0/requests/packages/chardet/constants.py
+ create mode 100644 resources/requests-2.7.0/requests/packages/chardet/cp949prober.py
+ create mode 100644 resources/requests-2.7.0/requests/packages/chardet/escprober.py
+ create mode 100644 resources/requests-2.7.0/requests/packages/chardet/escsm.py
+ create mode 100644 resources/requests-2.7.0/requests/packages/chardet/eucjpprober.py
+ create mode 100644 resources/requests-2.7.0/requests/packages/chardet/euckrfreq.py
+ create mode 100644 resources/requests-2.7.0/requests/packages/chardet/euckrprober.py
+ create mode 100644 resources/requests-2.7.0/requests/packages/chardet/euctwfreq.py
+ create mode 100644 resources/requests-2.7.0/requests/packages/chardet/euctwprober.py
+ create mode 100644 resources/requests-2.7.0/requests/packages/chardet/gb2312freq.py
+ create mode 100644 resources/requests-2.7.0/requests/packages/chardet/gb2312prober.py
+ create mode 100644 resources/requests-2.7.0/requests/packages/chardet/hebrewprober.py
+ create mode 100644 resources/requests-2.7.0/requests/packages/chardet/jisfreq.py
+ create mode 100644 resources/requests-2.7.0/requests/packages/chardet/jpcntx.py
+ create mode 100644 resources/requests-2.7.0/requests/packages/chardet/langbulgarianmodel.py
+ create mode 100644 resources/requests-2.7.0/requests/packages/chardet/langcyrillicmodel.py
+ create mode 100644 resources/requests-2.7.0/requests/packages/chardet/langgreekmodel.py
+ create mode 100644 resources/requests-2.7.0/requests/packages/chardet/langhebrewmodel.py
+ create mode 100644 resources/requests-2.7.0/requests/packages/chardet/langhungarianmodel.py
+ create mode 100644 resources/requests-2.7.0/requests/packages/chardet/langthaimodel.py
+ create mode 100644 resources/requests-2.7.0/requests/packages/chardet/latin1prober.py
+ create mode 100644 resources/requests-2.7.0/requests/packages/chardet/mbcharsetprober.py
+ create mode 100644 resources/requests-2.7.0/requests/packages/chardet/mbcsgroupprober.py
+ create mode 100644 resources/requests-2.7.0/requests/packages/chardet/mbcssm.py
+ create mode 100644 resources/requests-2.7.0/requests/packages/chardet/sbcharsetprober.py
+ create mode 100644 resources/requests-2.7.0/requests/packages/chardet/sbcsgroupprober.py
+ create mode 100644 resources/requests-2.7.0/requests/packages/chardet/sjisprober.py
+ create mode 100644 resources/requests-2.7.0/requests/packages/chardet/universaldetector.py
+ create mode 100644 resources/requests-2.7.0/requests/packages/chardet/utf8prober.py
+ create mode 100644 resources/requests-2.7.0/requests/packages/urllib3/__init__.py
+ create mode 100644 resources/requests-2.7.0/requests/packages/urllib3/_collections.py
+ create mode 100644 resources/requests-2.7.0/requests/packages/urllib3/connection.py
+ create mode 100644 resources/requests-2.7.0/requests/packages/urllib3/connectionpool.py
+ create mode 100644 resources/requests-2.7.0/requests/packages/urllib3/contrib/__init__.py
+ create mode 100644 resources/requests-2.7.0/requests/packages/urllib3/contrib/ntlmpool.py
+ create mode 100644 resources/requests-2.7.0/requests/packages/urllib3/contrib/pyopenssl.py
+ create mode 100644 resources/requests-2.7.0/requests/packages/urllib3/exceptions.py
+ create mode 100644 resources/requests-2.7.0/requests/packages/urllib3/fields.py
+ create mode 100644 resources/requests-2.7.0/requests/packages/urllib3/filepost.py
+ create mode 100644 resources/requests-2.7.0/requests/packages/urllib3/packages/__init__.py
+ create mode 100644 resources/requests-2.7.0/requests/packages/urllib3/packages/ordered_dict.py
+ create mode 100644 resources/requests-2.7.0/requests/packages/urllib3/packages/six.py
+ create mode 100644 resources/requests-2.7.0/requests/packages/urllib3/packages/ssl_match_hostname/__init__.py
+ create mode 100644 resources/requests-2.7.0/requests/packages/urllib3/packages/ssl_match_hostname/_implementation.py
+ create mode 100644 resources/requests-2.7.0/requests/packages/urllib3/poolmanager.py
+ create mode 100644 resources/requests-2.7.0/requests/packages/urllib3/request.py
+ create mode 100644 resources/requests-2.7.0/requests/packages/urllib3/response.py
+ create mode 100644 resources/requests-2.7.0/requests/packages/urllib3/util/__init__.py
+ create mode 100644 resources/requests-2.7.0/requests/packages/urllib3/util/connection.py
+ create mode 100644 resources/requests-2.7.0/requests/packages/urllib3/util/request.py
+ create mode 100644 resources/requests-2.7.0/requests/packages/urllib3/util/response.py
+ create mode 100644 resources/requests-2.7.0/requests/packages/urllib3/util/retry.py
+ create mode 100644 resources/requests-2.7.0/requests/packages/urllib3/util/ssl_.py
+ create mode 100644 resources/requests-2.7.0/requests/packages/urllib3/util/timeout.py
+ create mode 100644 resources/requests-2.7.0/requests/packages/urllib3/util/url.py
+ create mode 100644 resources/requests-2.7.0/requests/sessions.py
+ create mode 100644 resources/requests-2.7.0/requests/status_codes.py
+ create mode 100644 resources/requests-2.7.0/requests/structures.py
+ create mode 100644 resources/requests-2.7.0/requests/utils.py
+ create mode 100644 resources/requests-2.7.0/requirements.txt
+ create mode 100644 resources/requests-2.7.0/setup.cfg
+ create mode 100755 resources/requests-2.7.0/setup.py
+ create mode 100755 resources/requests-2.7.0/test_requests.py
+calebs-MBP:LCD_info- caheidecker$ git push
+Warning: Permanently added the RSA host key for IP address '140.82.114.4' to the list of known hosts.
+Enter passphrase for key '/Users/caheidecker/.ssh/id_ed25519': 
+Enumerating objects: 109, done.
+Counting objects: 100% (109/109), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (102/102), done.
+Writing objects: 100% (108/108), 446.61 KiB | 6.29 MiB/s, done.
+Total 108 (delta 20), reused 0 (delta 0)
+remote: Resolving deltas: 100% (20/20), completed with 1 local object.
+To github.com:amitadhikari9654/LCD_info-.git
+   c129ddb..d37e097  master -> master
+calebs-MBP:LCD_info- caheidecker$ 
 
